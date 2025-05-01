@@ -16,7 +16,7 @@ const NavBar = () => {
       <div className="container mx-auto flex items-center justify-between p-4">
 
         {/* Left: Menu */}
-        <div className="flex space-x-6 text-black font-mono text-sm hidden md:flex">
+        <div className="flex space-x-6 text-black font-mono text-sm  md:flex">
           <Link to="/products" className="hover:underline transition-all duration-300 ease-in-out hover:opacity-70">Products</Link>
           <Link to="/color-formulas" className="hover:underline transition-all duration-300 ease-in-out hover:opacity-70">Color Formulas</Link>
           <Link to="/how-to-dye" className="hover:underline transition-all duration-300 ease-in-out hover:opacity-70">How to Dye</Link>
@@ -34,7 +34,7 @@ const NavBar = () => {
           </Link>
         </div>
 
-        <div className="flex items-center space-x-6 text-black font-mono text-sm hidden md:flex">
+        <div className="flex items-center space-x-6 text-black font-mono text-sm md:flex">
           <Link to="/project-ideas" className="hover:underline transition-all duration-300 ease-in-out hover:opacity-70">Project Ideas</Link>
           <Link to="/contact-us" className="hover:underline transition-all duration-300 ease-in-out hover:opacity-70">Contact Us</Link>
           <Link to="/faqs" className="hover:underline transition-all duration-300 ease-in-out hover:opacity-70">FAQs</Link>
