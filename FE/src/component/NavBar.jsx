@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { X, Search, ShoppingBag, Globe, Droplet, FileText, HelpCircle, Mail, MapPin, PenTool, BookOpen, Layers, User } from 'lucide-react';
+import { X, Search, Droplet, FileText, HelpCircle, Mail, MapPin, PenTool, BookOpen, Layers, User } from 'lucide-react';
 import Logo from "../assets/Logo.png"
 
 const NavBar = () => {
